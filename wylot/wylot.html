@@ -1,0 +1,37 @@
+<head>
+  <title>Wojtek na wylocie!</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <div id="wrap">
+  <h1>Wojtek na wylocie, jeszcze: </h1>
+  <div id="clockdiv">
+    <div>
+      <span class="days"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+  <div id="push"></div>
+</div>
+<div id="footer">
+      <div class="container">
+        <p class="muted credit">Wojciech Piotrowiak 2016. Code from: http://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/</p>
+      </div>
+</div>
+</template>
