@@ -1,7 +1,7 @@
 if (Meteor.isClient) {
 
   Template.hello.rendered = function () {
-    var deadlineDate = 'April 07 2016 15:59:59 GMT+01:00';
+    var deadlineDate = 'April 08 2016 15:59:59 GMT+01:00';
     initializeClock('clockdiv', deadlineDate);
   };
 
